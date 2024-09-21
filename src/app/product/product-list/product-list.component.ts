@@ -48,6 +48,16 @@ export class ProductListComponent {
       "Marca":"BMW",
       "Color":"Rojo",
       "ImagenUrl":"https://th.bing.com/th/id/OIP.L7Mj5gNDwuxoJaUg1-QFMgHaE8?rs=1&pid=ImgDetMain"
+    },
+    {
+      "productoId":4,
+      "Modelo":"Rio",
+      "Descripcion":"4 puertas",
+      "Precio": 150000,
+      "Year":"Junio 14 2020",
+      "Marca":"BMW",
+      "Color":"Rojo",
+      "ImagenUrl":"https://th.bing.com/th/id/OIP.L7Mj5gNDwuxoJaUg1-QFMgHaE8?rs=1&pid=ImgDetMain"
     }
   ]
 
