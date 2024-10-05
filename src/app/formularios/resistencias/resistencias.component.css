@@ -1,0 +1,81 @@
+form {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid rgb(252, 252, 252);
+    padding: 10px;
+    text-align:center;
+
+
+}
+
+/* Estilos generales */
+div {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px; /* Espaciado inferior para el formulario */
+}
+
+/* Estilos para los selectores */
+select {
+    margin-top: 5px; /* Margen superior */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde */
+}
+
+/* Estilo del botón */
+button {
+    margin-top: 10px; /* Margen superior */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #218888; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+/* Cambia el color del botón al pasar el mouse */
+button:hover {
+    background-color: #0a5d5d; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+
+
+.color-Negro { background-color: black; color: white; }
+.color-Café { background-color: brown; color: white; }
+.color-Rojo { background-color: red; color: white; }
+.color-Naranja { background-color: orange; }
+.color-Amarillo { background-color: yellow; }
+.color-Verde { background-color: green; color: white; }
+.color-Azul { background-color: blue; color: white; }
+.color-Violeta { background-color: violet; }
+.color-Gris { background-color: gray; color: white; }
+.color-Blanco { background-color: white; color: black; }
+
+
+th {
+    background-color: #0a4177; 
+    color: white; 
+}

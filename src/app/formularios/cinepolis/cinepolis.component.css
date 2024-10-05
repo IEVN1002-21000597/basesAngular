@@ -1,0 +1,116 @@
+/* Estilos generales para la página */
+body {
+    background-color: #0061c1;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: #093eec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Encabezado */
+.form-container h1 {
+    color: #ffffff; /* Rojo estilo Cinépolis */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #ffffff; /* Texto oscuro */
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Botones */
+.actions {
+    margin-top: 20px;
+}
+
+.btn-danger {
+    background-color: #4086ef;
+    border-color: #fdfdfd;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-secondary {
+    background-color: #b90606;
+    border-color: #6c757d;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/* Estilos para las salidas */
+fieldset {
+    margin-top: 30px;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Campos deshabilitados (para mostrar el valor a pagar) */
+input[disabled] {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+/* Alertas de error */
+.alert {
+    margin-top: 15px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    font-weight: bold;
+}
+
+/* Estilo personalizado para el radio buttons */
+.form-check-label {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+/* Centrado y espaciado */
+.text-center {
+    text-align: center;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
